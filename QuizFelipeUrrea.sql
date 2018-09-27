@@ -58,7 +58,7 @@ where url like '%google%';
 
 --List the ip addresses and the time of the last attack if the attack has been produced the last year (2017) (Hint: https://stackoverflow.com/a/30071091)
 select ip_address, time_of_last_attacks from attacks
-where year(time_of_last_attacks) 
+where year(time_of_last_attacks) = 2017
 
 
 
